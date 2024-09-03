@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Setfilter div {
+    padding: 2px 4px;
+    border:2px solid rgb(255, 218, 151);
+    width: fit-content;
+    border-radius: 5px;
+
+}
+.Setfilter option {
+  text-align: center;
+
+}
+.Setfilter select {
+  background-color: #ffebd3;
+  border-radius: 7px;
+
+}
+.Setfilter select:hover {
+  background-color: #ffe4aa;
+  outline: none;
+}
+.Setfilter select:active {
+  outline: none;
+}
+.drag-none{
+    -webkit-user-drag: none; 
+  /* user-drag: none; */
+}
+
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-card {
+  flex: 0 0 100%;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer a:hover{
+  color: #ee890e;
+}
+nav a:hover{
+  color: #ee890e;
+}
